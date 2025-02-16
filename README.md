@@ -1,7 +1,8 @@
 # Personal Portfolio Website
 
 Welcome to my personal portfolio website! This project is a modern, responsive, and accessible website that showcases my work, skills, and contact information.
-
+The focus wasn't the visual appearance,  but mainly show casing, friendly UX/UI, with accessibility and mobile responsivity in mind, as well as the usage of
+CSS3, HTML5, bootstrap 5, and Vanila JS
 ## Table of Contents
 
 - [About](#about)
