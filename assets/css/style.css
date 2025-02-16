@@ -55,7 +55,7 @@ body {
     text-align: center;
   }
   
-  /* Additional Responsive Tweaks if Needed */
+  /* Additional Responsive Tweaks */
   @media (max-width: 576px) {
     header.hero {
       min-height: 40vh;
