@@ -1,0 +1,79 @@
+
+/* assets/css/style.css */
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+  }
+  /* About Section */
+  .profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50% !important;
+    object-fit: cover;
+  }
+  /* Projects Section*/
+  .projects-photos {
+ 
+    border-radius: 15% !important;
+    object-fit: cover;
+  }
+  .projects-cards {
+    
+    border-radius: 15% !important;
+    object-fit: cover;
+  }
+  /* Hero Section */
+  header.hero {
+    background: url('../img/hero-image2.webp') no-repeat center center;
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+  }
+  
+  /* Section Headings */
+  .section-heading {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    background: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  /* Additional Responsive Tweaks if Needed */
+  @media (max-width: 576px) {
+    header.hero {
+      min-height: 40vh;
+    }
+  }
+  
+/* Interactive Card Styles */
+.interactive-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .interactive-card:hover,
+  .interactive-card:focus,
+  .interactive-card:active {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .active-card {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
